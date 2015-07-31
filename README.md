@@ -7,24 +7,25 @@
 
 ### How it works
 ```rb
-  user = {
-    id: 1001,
-    name: 'user1',
-    position: {
-      x: 15,
-      y: 0
-    }
+require './js_obj'
+
+user = {
+  name: 'user1',
+  position: {
+    x: 15,
+    y: 0
   }
-  
-  # Read
-  puts user.id # => 1001
-  puts user.position.x => 15
-  
-  # Add new property
-  user.age = 10
-  puts user.age # => 10
-  
-  user.position.z = 22
-  puts user.position.z # => 22
+}
+
+# Read
+puts user.name #=> user1
+puts user.position.x #=> 15
+
+# Add new property
+user.age = 10
+puts user.age #=> 10
+
+user.position.z = 22
+puts user.position.z #=> 22
   
 ```
