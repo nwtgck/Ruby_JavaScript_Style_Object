@@ -24,7 +24,6 @@ puts user.position.x #=> 15
 # Add new property
 user.age = 10
 puts user.age #=> 10
-
 user.position.z = 22
 puts user.position.z #=> 22
   
